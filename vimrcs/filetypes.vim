@@ -75,3 +75,8 @@ endif
 " => Twig section
 """"""""""""""""""""""""""""""
 autocmd BufRead *.twig set syntax=html filetype=html
+
+" wepy section
+"""""""""""""""
+au BufRead,BufNewFile *.wpy setlocal filetype=vue.html.javascript.css
+
